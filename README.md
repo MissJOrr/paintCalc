@@ -1,5 +1,5 @@
 # paintCalc
-painters.js integrates an API to receive a paint order (in a series of walls, each assigned a paintId, and may or may not contain an array of gaps to be omitted) such as the Example Request body below, and returns a report of litres and price for each paint. Paintersv2.js is a previous iteration of the program which used CLI to get the number of walls, wall and gap dimensions, as well as paint information. A feature found in this earlier version not integrated into the API version is the ability to apply multiple paints (e.g. primer) to the same wall. 
+paintApi.js integrates an API to receive a paint order (in a series of walls, each assigned a paintId, and may or may not contain an array of gaps to be omitted) such as the Example Request body below, and returns a report of litres and price for each paint. Paintersv2.js is a previous iteration of the program which used CLI to get the number of walls, wall and gap dimensions, as well as paint information. A feature found in this earlier version not integrated into the API version is the ability to apply multiple paints (e.g. primer) to the same wall. painters.js is the earliest iteration with little abstraction, error handling, or user validations. 
 
 Example Request body:
 {
